@@ -9,6 +9,7 @@ Example Usage:
 ```python
 from lilyhosting.api import LilyHostingAPI
 
+# API points to (You dont need the port if you are using an Hosting provider, You need just the url of their proxmox panel which can be "vps-02.theprivatecloud.link" in lilyhosting)
 api = LilyHostingAPI("https://example.com:8006", "YOUR_API_TOKEN")
 ```
 
